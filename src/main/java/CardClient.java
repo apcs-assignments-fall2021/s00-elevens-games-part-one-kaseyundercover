@@ -7,9 +7,10 @@ public class CardClient {
 		// ***********************
 		// Make a card
 		Card c1 = new Card("ace", "hearts", 1);
-
+		Card c2 = new Card("queen", "spades", 11);
 		// Print out the card's rank
 		System.out.println(c1.getRank());
+		System.out.println(c2.getRank());
 		// ace
 
 		// ** You might want to test the other getters here as well **
